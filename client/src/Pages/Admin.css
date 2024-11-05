@@ -1,0 +1,243 @@
+.admin-container * {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .admin-container {
+    /* margin-top: 20px; */
+    margin-left: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    position: relative;
+    padding: 0px 10px;
+    /* padding: 0px 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .shop-now-container {
+    font-size: 30px;
+    color: #4f0a0a;
+  }
+  
+  .search-bar {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    margin-right: 5px;
+    width: 200px;
+  }
+  
+  .search-bar button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #4f0a0a;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .filters a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 99px;
+    transition: 0.3s;
+    color: #4f0a0a;
+  }
+  
+  .filters a:hover {
+    background: #4f0a0a;
+    color: white;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0px 20px;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 25px;
+    border: 2px solid #4f0a0a;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .card img {
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  .card-details {
+    padding: 20px;
+  }
+  
+  .card-title {
+    margin-bottom: 10px;
+  }
+  
+  .card-reviews {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .total-reviews {
+    margin-left: 5px;
+  }
+  
+  .card-price {
+    margin-bottom: 5px;
+  }
+
+  .price {
+    margin-left: 5px;
+  }
+  
+  .bag {
+    display: flex;
+    align-items: center;
+  }
+  .quantity{
+    margin-right:5px;
+  }
+  .stock{
+    margin-right: auto;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+
+  }
+
+  .edit-container {
+    position: absolute;
+    bottom: -5px;
+    right: 15px;
+    margin-bottom: 10px; 
+    margin-right: 10px; 
+  }
+  .edit {
+    font-family: "Noto Sans Gothic", sans-serif;
+    font-size: larger;
+    color: #4f0a0a;
+    border: 0; 
+    width: 90px;
+    padding: 5px 0;
+    position: relative;
+    top: -10px;
+    border: 2px solid #4f0a0a; 
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-bottom: 0;
+  }
+  .edit:hover{
+    background: #4f0a0a;
+    color: #f9f9f9;
+  }
+  .add-new button{
+    font-size: 20px;
+    margin-left: 0px;
+    /* margin-left: 20px; */
+    padding: 10px 16px;
+    border-radius: 5px;
+    background-color: #4f0a0a;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Dear CSS Team, here's the row css tags */
+
+  .employee-container, .supplier-container { /* Don't put background-color in this one - Raian */
+    margin-right: 20px;
+  }
+
+  .employee-row, .supplier-row {
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  .employee-info, .supplier-info {
+  }
+  
+  .employee-actions, .supplier-actions {
+    display: flex; /* this lets button be bottom right */
+    align-items: flex-end; /* this lets button be bottom right */
+  }
+  
+  .line-admin {
+    margin-bottom: 5px;
+  }
+  
+  .manage-employee-button, .manage-supplier-button {
+    margin-left: auto;
+    background-color: transparent;
+    border: 1px solid #4f0a0a;
+    padding: 10px 16px;
+    font-size: 15px;
+  }
+  .manage-employee-button:hover,
+  .manage-supplier-button:hover {
+      background-color: #4f0a0a;
+      color: white;
+      border-color: #4f0a0a;
+  }
+  /* The Pop-Up tags (should look the same regardless of on employee or supplier) */
+  /* Please change it so it looks nicer :) - Raian */
+
+  .pop-up-admin{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-align: center;
+  }
+
+  .go-back-admin {
+    background-color: #4f0a0a;
+    color: white;
+    margin-right: 20px; 
+  }
+
+  .confirm-delete-admin {
+    background-color: white;
+    border: 1px solid #4f0a0a;
+    padding: 1px;
+  }
+  .confirm-delete-:hover {
+    background-color: #4f0a0a;
+    color: white;
+    border-color: #4f0a0a;
+  }
+
+
+
+     /* border: #4f0a0a;
+    color: transparent;
+    padding: 15px 32 px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer; */
+  

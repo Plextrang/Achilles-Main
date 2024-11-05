@@ -1,0 +1,131 @@
+.checkout-container {
+    margin: 20px;
+}
+
+.checkout-title {
+    margin-bottom: 20px;
+}
+
+.checkout-items {
+    width: 100%;
+}
+
+.checkout-summary {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* display: flex;
+    align-items: flex-end; */
+}
+
+.checkout-summary h2 {
+    margin-top: 0;
+}
+
+.checkout-subtotal {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+.confirm-order-button {
+    background-color: #4f0a0a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
+    align-self: flex-end; 
+}
+
+.confirm-order-button:hover {
+    background-color: #972626;
+}
+
+.payment-section {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.payment-section h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.payment-section label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.payment-section input[type="text"] {
+    width: calc(100% - 20px); 
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.shipping-address {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.shipping-address h2 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.shipping-address label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.shipping-address input[type="text"] {
+    width: calc(100% - 20px); 
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.go-to-profile {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.go-to-profile:hover {
+    background-color: #45a049;
+}
+
+

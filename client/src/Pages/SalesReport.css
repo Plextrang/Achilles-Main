@@ -1,0 +1,83 @@
+.sales-report-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  .report-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .report-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .table-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .data-table {
+    margin-bottom: 30px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #4f0a0a;
+    color:#f0f0f0;
+    font-weight: bold;
+  }
+  
+  /* tr:nth-child(even) {
+    background-color: #f9f9f9;
+  } */
+  
+  tr:hover {
+    background-color: #f0f0f0;
+  }
+
+  .filters a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 99px;
+    transition: 0.3s;
+    color: #4f0a0a;
+  }
+  
+  .filters a:hover {
+    background: #4f0a0a;
+    color: white;
+  }
+  
+  .filtered-button-row {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .filtered-button-section {
+    margin-right: 20px;
+  }
+
+  .sales-button-row button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }

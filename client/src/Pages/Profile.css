@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+#profileForm {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: #ccc;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+#title {
+    font-size: xx-large;
+    text-align: left;
+    padding-left: 1%;
+}
+
+.text-label {
+    font-weight: 500;
+    margin-top: 3px;
+    margin-bottom: 2px; 
+}
+
+.required {
+    color: red;
+}
+
+.form-wrapper {
+    padding: 10px;
+    width: 50rem;
+}
+
+.form-container {
+    background-color: rgb(222, 222, 222);
+    margin-top: 2rem;
+    margin-left: 0;
+    padding: 5px;
+    /* border: 1px solid rgb(222, 222, 222); */
+    border-radius: 5px;
+}
+
+.text {
+    padding: 0 .5rem;
+    border-radius: 4px;
+    border: 1px solid rgb(150, 150, 150);
+    height: 35px;
+    font-size: 15px;
+}
+
+.text::placeholder {
+    opacity: .5;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.input-name {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 1%;
+}
+
+.input-mname {
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    margin: 1%;
+}
+
+.input-city {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 1%;
+}
+
+.input-dob {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    
+}
+
+.location-container {
+    display: flex;
+    justify-content: left;
+}
+
+.details-container {
+    display: flex;
+    justify-content: left; 
+}
+
+
+.button-wrapper {
+    margin: 5px;
+    display: flex;
+    justify-content: right;
+}
+
+.entry-button {
+    background-color: #FFAEB9;
+    color: white;
+    border-radius: 6px;
+    margin-right: .5%;
+    padding: 12px;
+}
+
+.entry-button:hover {
+    background-color: #ffc0c8;
+}
